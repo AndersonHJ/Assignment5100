@@ -9,11 +9,11 @@ public class Run {
 		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("Input your number:");
+		System.out.print("Input:");
 		
 		long EndNum = input.nextLong();
 		
-		System.out.print(0);
+		System.out.print("Output: " + 0);
 		for(long i = 1; i <= EndNum; i += 2){
 			System.out.print(", " + i);
 		}
@@ -23,7 +23,7 @@ public class Run {
 		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("Input your number:");
+		System.out.print("Input: ");
 		
 		long EndNum = input.nextLong();
 		
@@ -36,7 +36,7 @@ public class Run {
 			else
 				i++;
 	 	};
-
+	 	System.out.print("Output: ");
 	 	if(EndNum > 1 && is == 1) 
 	    	System.out.println(EndNum + " is a prime");
 	    else
@@ -47,7 +47,7 @@ public class Run {
 		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("Input your number:");
+		System.out.print("Input: ");
 		
 		long EndNum = input.nextLong();
 		
@@ -58,6 +58,7 @@ public class Run {
 			EndNum /= 10;
 			
 		}
+		System.out.print("Output: ");
 		System.out.println(EndNum + " has " + i + "digits");
 	}
 	
@@ -74,6 +75,7 @@ public class Run {
 			if(EndStr.charAt(i) == 'a')
 				result++;
 		}
+		System.out.print("Output: ");
 		if(result == 0)
 			System.out.println(EndStr + " has " + "no" + " 'a'");
 		else
@@ -94,6 +96,7 @@ public class Run {
 			if(EndStr.charAt(i) == charac.charAt(1))
 				result++;
 		}
+		System.out.print("Output: ");
 		if(result == 0)
 			System.out.println(EndStr + " has " + "no " + charac);
 		else
@@ -121,6 +124,7 @@ public class Run {
 				maxnum = EndNum.get(i++);
 			l++;
 		}
+		System.out.print("Output: ");
 		System.out.println(maxnum);
 	}
 	
@@ -159,6 +163,7 @@ public class Run {
 				temp = 0;
 			}
 		}
+		System.out.print("Output: ");
 		System.out.println("Max is " + maxnum + " and Min is " + minnum);
 	}
 	
