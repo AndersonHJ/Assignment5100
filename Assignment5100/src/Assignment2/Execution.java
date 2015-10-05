@@ -5,16 +5,18 @@ import java.util.*;
 
 public class Execution {
 	
+	//To find even numbers from 2 to the number passed as input number
 	public int[] detectEvenNumber(int number){
 		
-		int resultEvenNumber[] = new int[(number/2 < 1)? 1 : number/2+1];
+		int resultEvenNumber[] = new int[number/2];
 		
-		for(int i = 0; i < resultEvenNumber.length; i++){
+		for(int i = 1; i < resultEvenNumber.length; i++){
 			resultEvenNumber[i] = i*2;
 		}
 		return resultEvenNumber;
 	}
 
+	//To find if the number is prime or not
 	public boolean isPrime(int number){		
 
 		int is = 1;
@@ -35,6 +37,7 @@ public class Execution {
 	    	return false;
 	}
 	
+	//To find how many digits does a number
 	public int countDigit(int number){
 		
 		int i = 1;
@@ -47,6 +50,7 @@ public class Execution {
 		return i;
 	}
 	
+	//To find how many 'a' characters are in a String
 	public int countSubLetter(String string){
 		
 		int result = 0;
@@ -57,6 +61,7 @@ public class Execution {
 		return result;
 	}
 	
+	//To find how many characters are in the String
 	public int countSubLetter(String string, char subchar){
 
 		int result = 0;
@@ -67,6 +72,9 @@ public class Execution {
 		return result;
 	}
 	
+	/*To find the maximum or minimum number in an array of numbers
+	the method would return max number if option is true 
+	and it would return min number if option is false*/
 	public int findMaxMinNum(int[] numberarray, boolean option){
 		
 		int i = 0;
