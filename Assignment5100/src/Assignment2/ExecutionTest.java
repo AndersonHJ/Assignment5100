@@ -80,6 +80,8 @@ public class ExecutionTest {
 		testresult = execution.findMaxMinNum(new int[]{1000,0,-2}, true);
 		Assert.assertEquals(testresult, 1000);
 		
+		
+		
 	}
 
 }
