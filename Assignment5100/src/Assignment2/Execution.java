@@ -1,7 +1,5 @@
 package Assignment2;
 
-import java.util.*;
-
 
 public class Execution {
 	
@@ -10,8 +8,8 @@ public class Execution {
 		
 		int resultEvenNumber[] = new int[number/2];
 		
-		for(int i = 1; i < resultEvenNumber.length; i++){
-			resultEvenNumber[i] = i*2;
+		for(int i = 0; i < resultEvenNumber.length; i++){
+			resultEvenNumber[i] = (i+1)*2;
 		}
 		return resultEvenNumber;
 	}
@@ -102,13 +100,7 @@ public class Execution {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Execution execution = new Execution();
 		
-		//execution.detectEvenNumber();
-		//execution.isPrime(111);
-		//execution.countDigit();
-		//execution.countSubLetter();
-		//execution.findMaxMinNum();
 	}
 
 }
