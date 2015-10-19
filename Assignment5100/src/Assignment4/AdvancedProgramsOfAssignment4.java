@@ -34,12 +34,13 @@ public class AdvancedProgramsOfAssignment4 {
 			return new ZeroIndex(i, j);
 		}
 	
+	// please re-organize the following comments, do not use two /* ... */
 	/* find the groups of two or more zeros
 	(00 or 000 or 0000 etc)  in a one dimensional array that has either*/
 	/*if the input array is {1, 0, 0 , 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0}
 	output is a array of ZeroIndex object */
 	public ZeroIndex[] findZeroGroup(int[] arrayofzeros){
-		
+		// first checkout if the input is null.
 		int[] temp = new int[arrayofzeros.length/3+1];
 		
 		int index = 0;
@@ -69,7 +70,7 @@ public class AdvancedProgramsOfAssignment4 {
 	
 	/*reverse the words in a sentence*/
 	public char[] reverseSentence(String Original){
-		
+		// the first letter of parameter name please use lower case.
 		int start = Original.length(); 
 		int end = Original.length()-1;
 		char[] temp = Original.toCharArray();
@@ -141,6 +142,7 @@ public class AdvancedProgramsOfAssignment4 {
 			}
 			if(guessnumber < number){
 				System.out.println(guessnumber + "is less than what I've guessed - You have " + (5-i) + " chances to guess");
+				// why do you need continue here?
 				continue;
 			}
 		}
