@@ -1,4 +1,4 @@
-package MidTest;
+package midtest;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -23,7 +23,8 @@ public class MidTest {
 	}
 	
 	/**Move all zeros to the end of input int array
-	 * @param nums the int array contains int number
+	 * 
+	 * @param  nums the int array contains int number
 	 * @return nums the int array which the 0s all at the end of array
 	 * @throws if array nums is null, throw exception
 	 * */
@@ -50,40 +51,38 @@ public class MidTest {
 	}
 	
 	/**Determine if the string t is an anagram of string s
+	 * 
 	 * @param s origin string would be compared
 	 * @param t another string to compare with origin string
 	 * @return true if t is an anagram of s, false if not
 	 * */
-	public boolean isAnagram(String s, String t) {
+	public boolean isAnagram(String s, String t) throws ArrayIndexOutOfBoundsException, NullPointerException {
 		
-		if(s.length()!=t.length())
-			return false;
-		else {
-			//hashmap would store a string, Character is the character of string,
-			//Integer is the number of every Character
-			HashMap <Character, Integer> numberOfCharS = new HashMap<Character, Integer>();
-			HashMap <Character, Integer> numberOfCharT = new HashMap<Character, Integer>();
-			
-			for (int i = 0; i<s.length(); i++) {//store the two strings into hashmap
-				if(numberOfCharS.containsKey(s.charAt(i)))
-					numberOfCharS.put(s.charAt(i), numberOfCharS.get(s.charAt(i))+1);
-				else
-					numberOfCharS.put(s.charAt(i), 1);
-				
-				if(numberOfCharT.containsKey(t.charAt(i)))
-					numberOfCharT.put(t.charAt(i), numberOfCharT.get(t.charAt(i))+1);
-				else
-					numberOfCharT.put(t.charAt(i), 1);
-			}
-			
-			if(numberOfCharS.equals(numberOfCharT))
-				return true;
+		//hashmap would store a string, Character is the character of string,
+		//Integer is the number of every Character
+		HashMap <Character, Integer> numberOfCharS = new HashMap<Character, Integer>();
+		HashMap <Character, Integer> numberOfCharT = new HashMap<Character, Integer>();
+		
+		for (int i = 0; i<s.length(); i++) {//store the two strings into hashmap
+			if(numberOfCharS.containsKey(s.charAt(i)))
+				numberOfCharS.put(s.charAt(i), numberOfCharS.get(s.charAt(i))+1);
 			else
-				return false;
+				numberOfCharS.put(s.charAt(i), 1);
+			
+			if(numberOfCharT.containsKey(t.charAt(i)))
+				numberOfCharT.put(t.charAt(i), numberOfCharT.get(t.charAt(i))+1);
+			else
+				numberOfCharT.put(t.charAt(i), 1);
 		}
+		
+		if(numberOfCharS.equals(numberOfCharT))
+			return true;
+		else
+			return false;
 	}
 	
 	/**Judging if the array contains any duplicates
+	 * 
 	 * @param nums int array of unsorted integers
 	 * @return true if any value appears at least twice in the array, false if every element is distinct
 	 * @throws if array nums is null, throw exception
@@ -107,6 +106,7 @@ public class MidTest {
 	}
 	
 	/**If there exist any two numbers of array can add up to a target number
+	 * 
 	 * @param target the int number we want to get from the sum of two numbers of array
 	 * @param nums the input number array
 	 * @return true if there exist any two numbers of array can add up to a target number, false if not
@@ -141,9 +141,9 @@ public class MidTest {
 	
 	public static void main(String[] args) {
 
-		//MidTest execution = new MidTest();
+		MidTest execution = new MidTest();
 		
-		//execution.printFizzBuzz(0);
+		execution.printFizzBuzz(0);
 		//execution.moveZeros(new int[]{0, 12, 0, 34, 0, 55, 0, 7, 0});
 		//System.out.println(execution.isAnagram("", ""));
 		//System.out.println(execution.containsDuplicate(new int[]{0, 23, 234 , 45, 34, 0}));

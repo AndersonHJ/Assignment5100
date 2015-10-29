@@ -1,4 +1,4 @@
-package MidTest;
+package midtest;
 import static org.junit.Assert.*;
 
 import org.junit.Assert;
@@ -25,6 +25,7 @@ public class MidTestTest {
 			Assert.assertArrayEquals(new int[]{1, 0, 0, 0, 0}, execution.moveZeros(new int[]{0, 0, 0, 0, 1}));
 			Assert.assertArrayEquals(new int[]{12, 34, 55, 7, 0, 0, 0, 0, 0}, execution.moveZeros(new int[]{0, 12, 0, 34, 0, 55, 0, 7, 0}));
 		} catch (NullPointerException e) {
+			System.out.println("The array is null");
 			e.printStackTrace();
 		}
 	}
@@ -32,12 +33,19 @@ public class MidTestTest {
 	@Test
 	public void testIsAnagram() {
 //		fail("Not yet implemented"); // TODO
-		
-		Assert.assertTrue(execution.isAnagram("asdfasdf", "ffsasadd"));
-		Assert.assertFalse(execution.isAnagram("f", "ff"));
-		Assert.assertTrue(execution.isAnagram("f", "f"));
-		Assert.assertFalse(execution.isAnagram("asdfasdf", "ffsassdd"));
-		Assert.assertTrue(execution.isAnagram("", ""));
+		try {
+			Assert.assertTrue(execution.isAnagram("asdfasdf", "ffsasadd"));
+			Assert.assertFalse(execution.isAnagram("f", "ff"));
+			Assert.assertTrue(execution.isAnagram("f", "f"));
+			Assert.assertFalse(execution.isAnagram("asdfasdf", "ffsassdd"));
+			Assert.assertTrue(execution.isAnagram("", ""));
+		} catch (ArrayIndexOutOfBoundsException e) {
+			System.out.println("The length of String s and String t must be the same");
+			e.printStackTrace();
+		} catch (NullPointerException e) {
+			System.out.println("String can't be null");
+			e.printStackTrace();
+		}
 	}
 
 	@Test
@@ -50,6 +58,7 @@ public class MidTestTest {
 			Assert.assertTrue(execution.containsDuplicate(new int[]{1,1}));
 			Assert.assertFalse(execution.containsDuplicate(new int[]{1}));
 		} catch (NullPointerException e) {
+			System.out.println("The array is null");
 			e.printStackTrace();
 		}
 	}
@@ -66,6 +75,7 @@ public class MidTestTest {
 			Assert.assertTrue(execution.twoSum(new int[]{2, 2, 2, 2, 0}, 2));
 			Assert.assertTrue(execution.twoSum(new int[]{2, 0, 0, 1, 1}, 3));
 		} catch (NullPointerException e) {
+			System.out.println("The array is null");
 			e.printStackTrace();
 		}
 	

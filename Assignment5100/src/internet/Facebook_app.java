@@ -1,4 +1,4 @@
-package Internet;
+package internet;
 
 public class Facebook_app {
 	public String[] usersID = new String[10000];

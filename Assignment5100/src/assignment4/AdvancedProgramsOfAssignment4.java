@@ -1,4 +1,4 @@
-package Assignment4;
+package assignment4;
 
 import java.lang.Character;
 import java.util.Random;
@@ -147,13 +147,19 @@ public class AdvancedProgramsOfAssignment4 {
 		return false;
 	}
 	
+	public String test(String a){
+		a += "asfasdfa";
+		
+		return a;
+	}
+	
 	
 	public static void main(String[] args){
 		
 		AdvancedProgramsOfAssignment4 execution = new AdvancedProgramsOfAssignment4();
 		
-		execution.playingAGame();
-		
+		//execution.playingAGame();
+	//	System.out.println(test(new String("aaaaaaaaaa")));
 	}
 	
 }

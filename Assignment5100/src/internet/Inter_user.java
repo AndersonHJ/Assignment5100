@@ -1,4 +1,4 @@
-package Internet;
+package internet;
 
 import java.util.Scanner;
 

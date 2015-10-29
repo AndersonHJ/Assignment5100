@@ -1,10 +1,11 @@
-package Assignment4;
+package assignment4;
 
 import static org.junit.Assert.*;
 
 import org.junit.Assert;
 import org.junit.Test;
-import Assignment4.AdvancedProgramsOfAssignment4.*;
+
+import assignment4.AdvancedProgramsOfAssignment4.*;
 
 
 public class AdvancedProgramsOfAssignment4Test {

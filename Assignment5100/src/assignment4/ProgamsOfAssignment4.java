@@ -1,4 +1,4 @@
-package Assignment4;
+package assignment4;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -7,16 +7,16 @@ import java.util.Scanner;
 
 public class ProgamsOfAssignment4 {
 	
-	/* find the groups of two or more zeros
-	(00 or 000 or 0000 etc)  in a one dimensional array that has either*/
-	/*if the input array is {1, 0, 0 , 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0}
+/**	 find the groups of two or more zeros
+	(00 or 000 or 0000 etc)  in a one dimensional array that has either
+	if the input array is {1, 0, 0 , 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0}
 	 the output would be {1, 2, 7, 6, 14, 2}
 	 the first number of output array is the index of zeros
 	 and the second number of output array is the number of zero in this zero group*/
 	public int[] findGroups(int[] arrayofzeros){
 		
 		int[] temp = new int[(arrayofzeros.length/3)+1];
-		
+		/**and the second number of output array is the number of zero in this zero group*/
 		int index = 0;
 		int length = 0;
 		int parts = -1;

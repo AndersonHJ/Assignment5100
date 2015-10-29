@@ -1,4 +1,4 @@
-package Assignment5;
+package assignment5;
 
 public class UnavailableException extends Exception {
 

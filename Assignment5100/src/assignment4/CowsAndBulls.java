@@ -1,4 +1,4 @@
-package Assignment4;
+package assignment4;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -36,6 +36,7 @@ public class CowsAndBulls {
 	
 	public void addBulls(){
 		bulls++; 
+		
 	}
 	
 	//find cows and bulls from input number
@@ -50,7 +51,6 @@ public class CowsAndBulls {
 		}
 	}
 	
-	
 	public String getRandomNumber(){
 		Random randomGenerator = new Random();
 		int number = randomGenerator.nextInt(8999) + 1000;
@@ -58,9 +58,9 @@ public class CowsAndBulls {
 		return "".valueOf(number);
 	}
 
-		
-	public static void main(String[] args) {
 	
+	public static void main(String[] args) {
+		
 		CowsAndBulls oneGame = new CowsAndBulls();
 		
 		String number = oneGame.getRandomNumber();
