@@ -30,23 +30,27 @@ public class MidTest {
 	 * */
 	public int[] moveZeros(int[] nums) throws NullPointerException {
 		
-		int index = 0;//the end position of non-zero subarray
-		
-		for(int i = 0; i<nums.length; i++) {
-			if(nums[i] == 0 && i<nums.length-1) {
-				if(nums[i+1] != 0) {//if nums[i]==0 and nums[i+1]!=0,
-								//move the nums[i+1] to the end of non-zero subarray
-					nums[index] = nums[i+1];
-					nums[i+1]=0;
-					index++;
-					i++;
+		if(nums == null)
+			throw new NullPointerException();
+		else{
+			int index = 0;//the end position of non-zero subarray
+			
+			for(int i = 0; i<nums.length; i++) {
+				if(nums[i] == 0 && i<nums.length-1) {
+					if(nums[i+1] != 0) {//if nums[i]==0 and nums[i+1]!=0,
+									//move the nums[i+1] to the end of non-zero subarray
+						nums[index] = nums[i+1];
+						nums[i+1]=0;
+						index++;
+						i++;
+					}
 				}
+				else if(nums[i] != 0)
+					index++;
 			}
-			else if(nums[i] != 0)
-				index++;
+			
+			return nums;
 		}
-		
-		return nums;
 
 	}
 	
@@ -58,27 +62,33 @@ public class MidTest {
 	 * */
 	public boolean isAnagram(String s, String t) throws ArrayIndexOutOfBoundsException, NullPointerException {
 		
-		//hashmap would store a string, Character is the character of string,
-		//Integer is the number of every Character
-		HashMap <Character, Integer> numberOfCharS = new HashMap<Character, Integer>();
-		HashMap <Character, Integer> numberOfCharT = new HashMap<Character, Integer>();
-		
-		for (int i = 0; i<s.length(); i++) {//store the two strings into hashmap
-			if(numberOfCharS.containsKey(s.charAt(i)))
-				numberOfCharS.put(s.charAt(i), numberOfCharS.get(s.charAt(i))+1);
-			else
-				numberOfCharS.put(s.charAt(i), 1);
+		if(s == null || t == null)
+			throw new NullPointerException();
+		else if(s.length() != t.length())
+			throw new ArrayIndexOutOfBoundsException();
+		else{
+			//hashmap would store a string, Character is the character of string,
+			//Integer is the number of every Character
+			HashMap <Character, Integer> numberOfCharS = new HashMap<Character, Integer>();
+			HashMap <Character, Integer> numberOfCharT = new HashMap<Character, Integer>();
 			
-			if(numberOfCharT.containsKey(t.charAt(i)))
-				numberOfCharT.put(t.charAt(i), numberOfCharT.get(t.charAt(i))+1);
+			for (int i = 0; i<s.length(); i++) {//store the two strings into hashmap
+				if(numberOfCharS.containsKey(s.charAt(i)))
+					numberOfCharS.put(s.charAt(i), numberOfCharS.get(s.charAt(i))+1);
+				else
+					numberOfCharS.put(s.charAt(i), 1);
+				
+				if(numberOfCharT.containsKey(t.charAt(i)))
+					numberOfCharT.put(t.charAt(i), numberOfCharT.get(t.charAt(i))+1);
+				else
+					numberOfCharT.put(t.charAt(i), 1);
+			}
+			
+			if(numberOfCharS.equals(numberOfCharT))
+				return true;
 			else
-				numberOfCharT.put(t.charAt(i), 1);
+				return false;
 		}
-		
-		if(numberOfCharS.equals(numberOfCharT))
-			return true;
-		else
-			return false;
 	}
 	
 	/**Judging if the array contains any duplicates
@@ -89,20 +99,24 @@ public class MidTest {
 	 * */
 	public boolean containsDuplicate(int[] nums) throws NullPointerException {
 	
-		HashSet<Integer> numberOfInt = new HashSet<Integer>();	
-		
-		int i = 0;
-		for(i = 0; i<nums.length; i++) {
-			if(numberOfInt.contains(nums[i]))//break from for loop if there is any duplicate
-				break;
+		if(nums == null)
+			throw new NullPointerException();
+		else{
+			HashSet<Integer> numberOfInt = new HashSet<Integer>();	
+			
+			int i = 0;
+			for(i = 0; i<nums.length; i++) {
+				if(numberOfInt.contains(nums[i]))//break from for loop if there is any duplicate
+					break;
+				else
+					numberOfInt.add(nums[i]);
+			}
+			
+			if(i == nums.length)//if i equals to length of nums, it means every element is distinct
+				return false;
 			else
-				numberOfInt.add(nums[i]);
+				return true;
 		}
-		
-		if(i == nums.length)//if i equals to length of nums, it means every element is distinct
-			return false;
-		else
-			return true;
 	}
 	
 	/**If there exist any two numbers of array can add up to a target number
@@ -114,7 +128,9 @@ public class MidTest {
 	 * */
 	public boolean twoSum(int[] nums, int target) throws NullPointerException {
 		
-		if(nums.length<2)
+		if(nums == null)
+			throw new NullPointerException();
+		else if(nums.length<2)
 			return false;
 		else {
 			HashSet<Integer> numbers = new HashSet<Integer>();
@@ -141,9 +157,9 @@ public class MidTest {
 	
 	public static void main(String[] args) {
 
-		MidTest execution = new MidTest();
+		//MidTest execution = new MidTest();
 		
-		execution.printFizzBuzz(0);
+		//execution.printFizzBuzz(0);
 		//execution.moveZeros(new int[]{0, 12, 0, 34, 0, 55, 0, 7, 0});
 		//System.out.println(execution.isAnagram("", ""));
 		//System.out.println(execution.containsDuplicate(new int[]{0, 23, 234 , 45, 34, 0}));

@@ -32,7 +32,8 @@ public class CodesOfAssignment5 {
 	 * @param str     the string that would be judged
 	 * @return true if str matchs the pattern, false if not match
 	 * */
-	public boolean wordPattern(String pattern, String str) throws ArrayIndexOutOfBoundsException, NullPointerException{
+	public boolean wordPattern(String pattern, String str) throws ArrayIndexOutOfBoundsException, NullPointerException {
+		
 		String[] strII = str.split(" ");
 		HashMap<Character, String> mapOfPatternAndString = new HashMap<>();
 		
@@ -53,7 +54,10 @@ public class CodesOfAssignment5 {
 			return false;
 	}
 	
-	
+	/** */
+	public boolean isValid(String s){
+		
+	}
 	
 	
 	public static void main(String[] args){
