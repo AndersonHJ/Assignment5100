@@ -1,4 +1,4 @@
-package Midtest;
+package MidTest;
 import static org.junit.Assert.*;
 
 import org.junit.Assert;
