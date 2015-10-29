@@ -13,7 +13,7 @@ public class MidTest {
 	 * @param n int number should be judged
 	 * @return result String can be "" or "fizz " or "buzz" or both of them 
 	 * */
-	public String printFizzBuzz(int n){
+	public String printFizzBuzz(int n) {
 		String result = "";
 		if(n%3 == 0)
 			result += "fizz ";
@@ -27,13 +27,13 @@ public class MidTest {
 	 * @return nums the int array which the 0s all at the end of array
 	 * @throws if array nums is null, throw exception
 	 * */
-	public int[] moveZeros(int[] nums) throws NullPointerException{
+	public int[] moveZeros(int[] nums) throws NullPointerException {
 		
 		int index = 0;//the end position of non-zero subarray
 		
-		for(int i = 0; i<nums.length; i++){
-			if(nums[i] == 0 && i<nums.length-1){
-				if(nums[i+1] != 0){//if nums[i]==0 and nums[i+1]!=0,
+		for(int i = 0; i<nums.length; i++) {
+			if(nums[i] == 0 && i<nums.length-1) {
+				if(nums[i+1] != 0) {//if nums[i]==0 and nums[i+1]!=0,
 								//move the nums[i+1] to the end of non-zero subarray
 					nums[index] = nums[i+1];
 					nums[i+1]=0;
@@ -54,11 +54,11 @@ public class MidTest {
 	 * @param t another string to compare with origin string
 	 * @return true if t is an anagram of s, false if not
 	 * */
-	public boolean isAnagram(String s, String t){
+	public boolean isAnagram(String s, String t) {
 		
 		if(s.length()!=t.length())
 			return false;
-		else{
+		else {
 			//hashmap would store a string, Character is the character of string,
 			//Integer is the number of every Character
 			HashMap <Character, Integer> numberOfCharS = new HashMap<Character, Integer>();
@@ -88,12 +88,12 @@ public class MidTest {
 	 * @return true if any value appears at least twice in the array, false if every element is distinct
 	 * @throws if array nums is null, throw exception
 	 * */
-	public boolean containsDuplicate(int[] nums) throws NullPointerException{
+	public boolean containsDuplicate(int[] nums) throws NullPointerException {
 	
 		HashSet<Integer> numberOfInt = new HashSet<Integer>();	
 		
 		int i = 0;
-		for(i = 0; i<nums.length; i++){
+		for(i = 0; i<nums.length; i++) {
 			if(numberOfInt.contains(nums[i]))//break from for loop if there is any duplicate
 				break;
 			else
@@ -112,11 +112,11 @@ public class MidTest {
 	 * @return true if there exist any two numbers of array can add up to a target number, false if not
 	 * @throws if array nums is null, throw exception
 	 * */
-	public boolean twoSum(int[] nums, int target) throws NullPointerException{
+	public boolean twoSum(int[] nums, int target) throws NullPointerException {
 		
 		if(nums.length<2)
 			return false;
-		else{
+		else {
 			HashSet<Integer> numbers = new HashSet<Integer>();
 			
 			for(int i = 0; i<nums.length; i++)
@@ -124,7 +124,7 @@ public class MidTest {
 					numbers.add(nums[i]);
 			
 			int i = 0;
-			for(int temp; i<nums.length; i++){
+			for(int temp; i<nums.length; i++) {
 				temp = nums[i];
 				if(target>temp)
 					if(numbers.contains(target-temp))
