@@ -35,7 +35,7 @@ public class MidTestTest {
 //		fail("Not yet implemented"); // TODO
 		try {
 			Assert.assertTrue(execution.isAnagram("asdfasdf", "ffsasadd"));
-			Assert.assertFalse(execution.isAnagram("f", "ff"));
+			Assert.assertTrue(execution.isAnagram("f", "ff"));
 			Assert.assertTrue(execution.isAnagram("f", "f"));
 			Assert.assertFalse(execution.isAnagram("asdfasdf", "ffsassdd"));
 			Assert.assertTrue(execution.isAnagram("", ""));
