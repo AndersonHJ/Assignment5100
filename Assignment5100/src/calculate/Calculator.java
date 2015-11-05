@@ -1,4 +1,4 @@
-package Calculate;
+package calculate;
 
 import java.util.*;
 

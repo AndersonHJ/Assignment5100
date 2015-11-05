@@ -1,4 +1,4 @@
-package Internet;
+package internet;
 
 public class Browser {
 	
