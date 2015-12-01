@@ -13,7 +13,7 @@ class Product{
 	}
 	
 	/** The method of producing a product */
-	public void produce() {		
+	public void produce() {
 		products.add(100);
 		System.out.println("Produce a product: size of product-->" + products.size());
 	}
