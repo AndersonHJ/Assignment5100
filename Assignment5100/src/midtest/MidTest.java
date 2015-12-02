@@ -1,4 +1,4 @@
-package MidTest;
+package midtest;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;

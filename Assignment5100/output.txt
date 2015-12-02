@@ -1,0 +1,172 @@
+query:OQL[C++]: Extending C++ with an Object Query Capability.
+answer:OQL[C++]: extending C++ with an object query capability
+
+query:Transaction Management in Multidatabase Systems.
+answer:Efficient Global Transaction Management in Multidatabase Systems
+
+query:Overview of the ADDS System.
+answer:Overview of the ADDS system
+
+query:Multimedia Information Systems: Issues and Approaches.
+answer:Multimedia information systems: issues and approaches
+
+query:Active Database Systems.
+answer:Buffer Management in Active, Real-Time Database Systems - Concepts and an Algorithm
+
+query:Where Object-Oriented DBMSs Should Do Better: A Critique Based on Early Experiences.
+answer:Where object-oriented DBMSs should do better: a critique based on early experiences
+
+query:Distributed Databases.
+answer:Integrating semantically heterogeneous aggregate views of distributed databases
+school:School of Computing and Information Engineering, University of Ulster, Coleraine, Northern Ireland BT52 1SA	school:School of Computing and Information Engineering, University of Ulster, Coleraine, Northern Ireland BT52 1SA	school:School of Computing and Information Engineering, University of Ulster, Coleraine, Northern Ireland BT52 1SA	school:School of Computing and Information Engineering, University of Ulster, Coleraine, Northern Ireland BT52 1SA	
+
+query:An Object-Oriented DBMS War Story: Developing a Genome Mapping Database in C++.
+answer:An object-oriented DBMS war story: developing a genome mapping database in C++
+
+query:Cooperative Transactions for Multiuser Environments.
+answer:Cooperative transactions for multiuser environments
+
+query:Schema Architecture of the UniSQL/M Multidatabase System
+answer:Schema architecture of the UniSQL/M multidatabase system
+
+query:Physical Object Management.
+answer:Physical/cyber objects management framework for multiple-area detectable RFID
+school:Graduate School of Media and Governance, Keio University, Fujisawa, Kanagawa, Japan	school:Graduate School of Media and Governance, Keio University, Fujisawa, Kanagawa, Japan	school:Graduate School of Media and Governance, Keio University, Fujisawa, Kanagawa, Japan	school:Graduate School of Media and Governance, Keio University, Fujisawa, Kanagawa, Japan	school:Graduate School of Media and Governance, Keio University, Fujisawa, Kanagawa, Japan	
+
+query:Introduction to Part 1: Next-Generation Database Technology.
+answer:XML Data Management: Native XML and XML Enabled DataBase Systems
+
+query:Object-Oriented Database Systems: Promises, Reality, and Future.
+answer:Object-oriented database systems: promises, reality, and future
+
+query:Introduction to Part 2: Technology for Interoperating Legacy Databases.
+answer:Introduction to part 2: technology for interoperating legacy databases
+
+query:On Resolving Schematic Heterogeneity in Multidatabase Systems.
+answer:On resolving schematic heterogeneity in multidatabase systems
+
+query:Requirements for a Performance Benchmark for Object-Oriented Database Systems.
+answer:Requirements for a performance benchmark for object-oriented database systems
+
+query:On View Support in Object-Oriented Databases Systems.
+answer:On view support in object-oriented database systems
+
+query:The POSC Solution to Managing E&P Data.
+not found
+
+query:C++ Bindings to an Object Database.
+answer:C++ bindings to an object database
+
+query:Authorization in Object-Oriented Databases.
+answer:Authorization in Object Oriented Databases
+
+query:Query Processing in Multidatabase Systems.
+answer:Query processing in multidatabase systems
+
+query:Management of Uncerainty in database Systems.
+answer:Application of Bayesian Network Learning Methods to Waste Water Treatment Plants
+school:Dept. Llenguatges i Sistemes Informàtics, Universitat Politécnica de Catalunya, Modul C6, Jordi Girona 1-3, 08034 Barcelona, Spain. sanguesa@lsi.upc.es	school:Centre for Knowledge Systems, South Bank University, London, United Kingdom. phillb@sbu.ac.uk	
+
+query:Parallel Relational Database Systems.
+answer:Query Processing in Parallel Relational Database Systems
+
+query:Query Processing in Object-Oriented Database Systems.
+answer:Queries and query processing in object-oriented database systems
+
+query:Specification and Execution of Transactional Workflows.
+answer:Specification and execution of transactional workflows
+
+query:Spatial Data Structures.
+answer:Sorting in space: multidimensional, spatial, and metric data structures for computer graphics applications
+school:University of Maryland, College Park, MD	
+
+query:Spatial Data Models and Query Processing.
+answer:Spatial data models and query processing
+
+query:Pegasus: A Heterogeneous Information Management System.
+answer:Pegasus: a heterogeneous information management system
+
+query:Temporal Object-Oriented Databases: A Critical Comparison.
+answer:Temporal object-oriented databases: a critical comparison
+
+query:The OMG Object Model.
+answer:The OMG object model
+
+query:EDA/SQL.
+answer:EDA/SQL
+
+query:The Changing Database Standards Landscape.
+answer:The changing database standards landscape
+
+query:Modern Database Systems: The Object Model, Interoperability, and Beyond.
+answer:Modern database systems: the object model, interoperability, and beyond
+school:UniSQL, Austin, TX	
+
+query:Object SQL - A Language for the Design and Implementation of Object Databases.
+answer:Object SQL—a language for the design and implementation of object databases
+
+query:The Kuramoto model: A simple paradigm for synchronization phenomena
+answer:Delayed feedback control of bursting synchronization in a scale-free neuronal network
+school:Departamento de Física, Universidade Federal do Paraná, 81531-990, Curitiba, Paraná, Brazil	school:Departamento de Física, Universidade Federal do Paraná, 81531-990, Curitiba, Paraná, Brazil	school:Departamento de Física, Universidade Federal do Paraná, 81531-990, Curitiba, Paraná, Brazil	school:Departamento de Matemática e Estatística, Universidade Estadual de Ponta Grossa, 84032-900, Ponta Grossa, Paraná, Brazil	
+
+query:NONLINEAR STABILITY OF INCOHERENCE AND COLLECTIVE SYNCHRONIZATION IN A POPULATION OF COUPLED OSCILLATORS
+answer:Population Dynamics of Spiking Neurons: Fast Transients, Asynchronous States, and Locking
+
+query:Time-periodic phases in populations of nonlinearly coupled oscillators with bimodal frequency distributions
+answer:Time-periodic phases in populations of nonlinearly coupled oscillators with bimodal frequency distributions
+
+query:Adaptive frequency model for phase-frequency synchronization in large populations of globally coupled nonlinear oscillators
+answer:Consensus control for networks of dynamic agents via active switching topology
+school:Center for Systems & Control, LTCS and Department of Mechanics and Engineering Science, Peking University, Beijing, China	school:Center for Systems & Control, LTCS and Department of Mechanics and Engineering Science, Peking University, Beijing, China	
+
+query:Synchronization in populations of globally coupled oscillators with inertial effects
+answer:System-on-Chip Test Architectures: Nanometer Design for Testability
+
+query:CONVERGENCE AND STABILITY OF IMPLICIT RUNGE-KUTTA METHODS FOR SYSTEMS WITH MULTIPLICATIVE NOISE
+answer:Diagonally drift-implicit Runge--Kutta methods of weak order one and two for Itô SDEs and stability analysis
+school:Technische Universität Darmstadt, Fachbereich Mathematik, Schlossgartenstr. 7, D-64289 Darmstadt, Germany	school:Technische Universität Darmstadt, Fachbereich Mathematik, Schlossgartenstr. 7, D-64289 Darmstadt, Germany	
+
+query:Breaking the symmetry in bimodal frequency distributions of globally coupled oscillators
+answer:Interactive sound rendering
+
+query:INEQUALITIES AND NUMERICAL BOUNDS FOR ZEROS OF ULTRASPHERICAL POLYNOMIALS
+answer:Inequalities and numerical bounds for zeros of ultraspherical polynomials
+
+query:A-STABILITY OF RUNGE-KUTTA METHODS FOR SYSTEMS WITH ADDITIVE NOISE
+answer:Diagonally drift-implicit Runge--Kutta methods of weak order one and two for Itô SDEs and stability analysis
+school:Technische Universität Darmstadt, Fachbereich Mathematik, Schlossgartenstr. 7, D-64289 Darmstadt, Germany	school:Technische Universität Darmstadt, Fachbereich Mathematik, Schlossgartenstr. 7, D-64289 Darmstadt, Germany	
+
+query:Domain decomposition solution of elliptic boundary-value problems via Monte Carlo and quasi-Monte Carlo methods
+answer:Domain Decomposition Solution of Elliptic Boundary-Value Problems via Monte Carlo and Quasi-Monte Carlo Methods
+
+query:WKBJ-TYPE APPROXIMATION FOR FINITE MOMENTS PERTURBATIONS OF THE DIFFERENTIAL-EQUATION Y' = 0 AND THE ANALOGOUS DIFFERENCE EQUATION
+answer:Monotone Jacobi parameters and non-Szegő weights
+school:Institute of Mathematics, The Hebrew University, 91904 Jerusalem, Israel	school:Institute of Mathematics, The Hebrew University, 91904 Jerusalem, Israel	school:Mathematics 253-37, California Institute of Technology, Pasadena, CA 91125, USA	
+
+query:Ground-state computation of Bose-Einstein condensates by an imaginary-time quantum lattice Boltzmann scheme
+answer:A Lattice Boltzmann Model for the Reaction-Diffusion Equations with Higher-Order Accuracy
+school:College of Engineering, Peking University, Beijing, P.R. China 100871	school:College of Mathematics, Jilin University, Changchun, P.R. China 130012	
+
+query:Version Control in an Object-Oriented Architecture.
+answer:Version control in an object-oriented architecture
+
+query:The GemStone Data Management System.
+answer:An Object-Oriented Heterogeneous Database Architecture, Ph.D. Dissertation
+
+query:Storage Management in EXODUS.
+answer:Storage management for objects in EXODUS
+
+query:A Distributed Object Manager for the Smalltalk-80 System.
+answer:Design of a distributed object manager for the Smalltalk-80 system
+school:Universite´ de Grenoble	
+
+query:Objects, Messages, and Rules in Database Design.
+answer:Objects, messages, and rules in database design
+
+query:Active Objects: Ealities and Possibilities.
+answer:Frontmatter (TOC, Letters, Election results, Software Reliability Resources!, Computing Curricula 2004 and the Software Engineering Volume SE2004, Software Reuse Research, ICSE 2005 Forward)
+
+query:Overview of the Iris DBMS.
+answer:Overview of the IRIS DBMS
+
+query:Features of the ORION Object-Oriented Database System.
