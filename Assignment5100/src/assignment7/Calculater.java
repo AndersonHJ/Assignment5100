@@ -14,6 +14,7 @@ import javax.swing.JTextField;
 import javax.swing.border.Border;
 
 /** The class of calculater */
+// Your calculator does not support press point, how can you use it to do float number operations?
 public class Calculater extends JFrame{
 	JButton number[] = new JButton[10];//the buttons for number 0-9
 	JButton sum;// the button of + operation
